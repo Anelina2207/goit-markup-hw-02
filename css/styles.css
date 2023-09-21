@@ -4,44 +4,50 @@ body {
     background-color: #ffffff;
 }
 
-/* header та footer стилі для логотипу*/
-.header-logo,  
-.footer-logo
-{
+/* Стилі для заголовка */
+.page-header {
+    color: #4d5ae5;
+}
+
+
+/* Стилі для логотипу в хедері і футері */
+.header-logo,
+.footer-logo {
     font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
     font-size: 18px;
+    color: #4d5ae5;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.03em; 
-    text-transform: uppercase;
-    color: #4d5ae5; 
-   }
-  
-   
+    letter-spacing: 0.03em;
+}
+
+/* Колір для частини логотипу */
 .header-logo-color {
     color: #2e2f42;
 }
 
+/* Стилі для посилань в хедері */
+.header-link-fir {
+    color: #2e2f42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
 
- .header-link-fir {
-        color: #2e2f42;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.50;
-        letter-spacing: 0.02em;
-        /* 1dob */
-    }
-
+/* Стилі для посилань при наведенні та фокусу */
 .header-link-fir:hover,
 .header-link-fir:focus {
     color: #404bbf;
 }
 
+/* Стилі для списків */
 ul {
     list-style-type: none;
-    list-style: none;
 }
 
+/* Стилі для посилань */
 a {
     text-decoration: none;
 }
@@ -58,50 +64,12 @@ a {
     font-style: normal;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    /* 2dob */
 }
 
-/* Стилі для адреси при наведенні */
-.header-address-mail:hover {
-    color: #404bbf;
-}
-
-/* Стилі для адреси при фокусі */
+/* Стилі для адреси при наведенні та фокусі */
+.header-address-mail:hover,
 .header-address-mail:focus {
     color: #404bbf;
-}
-
-/* Стилі для першої секції */
-.section-one {
-    background-color: #2e2f42;
-}
-
-/* Стилі для заголовка першої секції */
-.page-title {
-    color: #fff;
-    text-align: center;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-}
-
-/* Стилі для кнопки в першій секції */
-.title-button {
-    color: #fff;
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    cursor: pointer;
-    background-color: #4d5ae5;
-    font-weight: 500;
-    line-height: 1.50;
-    letter-spacing: 0.04em;
-}
-
-/* Стилі для кнопки при наведенні та фокусу */
-.title-button:hover,
-.title-button:focus {
-    background-color: #404bbf;
 }
 
 /* Стилі для заголовків користувальницьких переваг і портфоліо */
